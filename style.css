@@ -223,10 +223,6 @@ nav .fa {
   margin-top: 20px;
   border-top: 10px;
 }
-.row1 h3{
-  margin-top: 20px;
-  border-top: 10px;
-}
 
 .prg{
   padding-top: 50px;
@@ -247,11 +243,6 @@ nav .fa {
   .row {
     flex-direction: column;
   }
-  .row1 h3{
-    margin-top: auto;
-    border-top: auto;
-  }
-  
 }
 
 /* ------------------------------------------------services--------------------------------------------------- */
