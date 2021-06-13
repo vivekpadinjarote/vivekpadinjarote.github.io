@@ -300,7 +300,7 @@ nav .fa {
 }
 
 .layer:hover h3 {
-  bottom: 49%;
+  bottom: 40%;
   opacity: 1;
 }
 
@@ -357,6 +357,57 @@ nav .fa {
     .callback h1{
         font-size: 24px;
     }
+}
+
+.services-col2 {
+  background-color:#fff;
+  flex-basis: 20%;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  position: relative;
+  overflow: hidden;
+}
+
+.services-col2 img {
+  width: 100%;
+  display:block;
+}
+
+.layer1 {
+  background: transparent;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: 0.5s;
+}
+
+.layer1:hover {
+  background: rgba(24, 142, 221, 0.7);
+}
+
+.layer1 h3 {
+  width: 100%;
+  font-weight: 500;
+  color: #fff;
+  font-size: 15px;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%);
+  position: absolute;
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.layer1 h3 a{
+  text-decoration: none;
+  color: #fff;
+}
+
+.layer1:hover h3 {
+  bottom: 30%;
+  opacity: 1;
 }
 
 
