@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-----------declaration starts here------------>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Vivek P P</title>
+    <!-----------declaration ends here------------>
+
+    <!-----------linking starts here------------>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap" rel="stylesheet">
+    <!-----------linking ends here------------>
+
+    <!--favicon icon-->
+    <link rel="icon" type="image/png" href="Assets/images/vW.png">
+</head>
+
+<body>
+
+    <!-----------header starts here------------>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="Assets/images/vW.png"></a>
+            <div class="nav-links" id="navLinks">
+                <ion-icon class="fa" name="close-circle-outline" onclick="hideMenu()"></ion-icon>
+                <ul>
+                    <li class="active"><a href="index.html" >Home</a></li>
+                    <li><a href="Assets\pdf\Vivek Resume.pdf" target="_blank">Resume</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <ion-icon class="fa" name="grid-outline" onclick="showMenu()"></ion-icon>
+        </nav>
+
+        <div class="text-box">
+            <h1>Vivek P P</h1>
+            <p>Hi, there...</p>
+            <a href="#about" class="hero-btn">Explore</a>
+        </div>
+    </section>
+    <!-----------header ends here------------>
+
+    <!-----------course starts here------------>
+    <section class="course" id="about">
+        <h1>ABOUT ME</h1>
+        <p>I'm currently doing my Bachelors Degree in Computer Science and Engineering.</p>
+        <div class="row">
+            <div class="course-col">
+                <div class="row">
+                    <div class="services-col">
+                        <img src="Assets/images/DSC_0407.JPG">
+                            <div class="layer">
+                                <h3><a href="Assets\pdf\Vivek Resume.pdf" download>RESUME</a></h3>
+                            </div>
+                    </div>
+                    <div class="picture">
+                        <p>Name : Vivek P P</p>
+                        <p>Email : vicu1122@gmail.com</p>
+                        <p>Phone : 9497665933</p>
+                    </div>
+                </div>
+                <div class="row1">
+                    <h3>SKILLS</h3>
+                    <div class="prg">
+                        <label for="file">Html:</label><br>
+                        <progress id="file" value="32" max="100"> 32% </progress>
+                    </div>
+                    <div class="prg">
+                        <label for="file">Flutter</label>
+                        <progress id="file" value="22" max="100"> 32% </progress>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="course-col">
+                <h3>My Self</h3>
+                <p>Qui veniam do culpa elit proident officia labore non elit quis adipisicing sunt laboris. Eiusmod ex reprehenderit aliqua pariatur consectetur exercitation enim nulla. Velit deserunt ex cillum ut sint laboris.</p>
+                <p>Qui veniam do culpa elit proident officia labore non elit quis adipisicing sunt laboris. Eiusmod ex reprehenderit aliqua pariatur consectetur exercitation enim nulla. Velit deserunt ex cillum ut sint laboris.</p>
+                <p>Qui veniam do culpa elit proident officia labore non elit quis adipisicing sunt laboris. Eiusmod ex reprehenderit aliqua pariatur consectetur exercitation enim nulla. Velit deserunt ex cillum ut sint laboris.</p>
+            </div>
+        </div>
+    </section>
+    <!-----------course ends here------------>
+
+    <!-----------services starts here------------>
+    <section class="services">
+        <div class="row">
+            <div class="services-col">
+                <img src="Assets/images/skills.png">
+                <div class="layer">
+                    <h3>SKILLS</h3>
+                </div>
+            </div>
+            
+            <div class="services-col">
+                <img src="Assets/images/presentation.png">
+                <div class="layer">
+                    <h3>PROJECTS</h3>
+                </div>
+            </div>
+
+            <div class="services-col">
+                <img src="Assets/images/achievement.png">
+                <div class="layer">
+                    <h3>ACHIEVEMENTS</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-----------services ends here------------>
+
+    <!-----------callback starts here------------>
+    <section class="callback">
+        <h1>Get In Touch</h1>
+        <a href="contact.html" class="hero-btn">CONTACT US</a>
+    </section>
+    <!-----------callback ends here------------>
+    
+    <!-----------footer starts here------------>
+    <section class="footer">
+        <div class="icons">
+            <a href="https://www.facebook.com/vivek.vicu" target="_blank"><ion-icon class="ionicon" name="logo-facebook"></ion-icon></a>
+            <a href="https://www.instagram.com/vivekpadinjarote" target="_blank"><ion-icon class="ionicon" name="logo-instagram"></ion-icon></a>
+            <a href="https://www.linkedin.com/in/vivek-pp-07136a1a1" target="_blank"><ion-icon class="ionicon" name="logo-linkedin"></ion-icon></a>
+            <a href="https://github.com/vivekpadinjarote" target="_blank"><ion-icon class="ionicon" name="logo-github"></ion-icon></a>
+            <p>&copy;2021. Developed by Vivek P P</p>
+    </section>
+    <!-----------footer ends here------------>
+
+    <!-----------scripts starts here------------>
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0px";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+    <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+    <!-----------scripts ends here------------>
+
+</body>
+</html>

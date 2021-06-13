@@ -1,0 +1,89 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <!-----------declaration starts here------------>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Vivek P P</title>
+    <!-----------declaration ends here------------>
+
+    <!-----------linking starts here------------>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap" rel="stylesheet">
+    <!-----------linking ends here------------>
+
+    <!--favicon icon-->
+    <link rel="icon" type="image/png" href="Assets/images/vW.png">
+</head>
+
+<body>
+    <!-----------header starts here------------>
+    <section class="header1">
+        <nav>
+            <a href="index.html"><img src="Assets/images/vW.png"></a>
+            <div class="nav-links" id="navLinks">
+                <ion-icon class="fa" name="close-circle-outline" onclick="hideMenu()"></ion-icon>
+                <ul>
+                    <li class="active"><a href="index.html" >Home</a></li>
+                    <li><a href="Assets\pdf\Vivek Resume.pdf" target="_blank">Resume</a></li>
+                    <li><a href="index.html#about">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <ion-icon class="fa" name="grid-outline" onclick="showMenu()"></ion-icon>
+        </nav>
+        <div class="row">
+        <div class="text-box">
+            <h1>Get in Touch</h1>
+            <a href=" https://wa.me/+919497665933" class="hero-btn" target="_blank">Contact me</a>
+        </div>
+        <div class="course-col1">
+                <form action="form.php" method="POST">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" placeholder="Your name..">
+
+	                <label for="phone">Phone Number</label>
+                    <input type="text" id="phone" name="phone" placeholder="Your phone number..">
+    
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Your email..">
+
+                    <label for="subject">Subject</label>
+                    <textarea id="subject" name="subject" placeholder="Write something.." style="height:70px"></textarea>
+
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+        </div>
+    </section>
+    <!-----------header ends here------------>
+    
+    <!-----------footer starts here------------>
+    <section class="footer">
+        <div class="icons">
+            <a href="https://www.facebook.com/vivek.vicu" target="_blank"><ion-icon class="ionicon" name="logo-facebook"></ion-icon></a>
+            <a href="https://www.instagram.com/vivekpadinjarote" target="_blank"><ion-icon class="ionicon" name="logo-instagram"></ion-icon></a>
+            <a href="https://www.linkedin.com/in/vivek-pp-07136a1a1" target="_blank"><ion-icon class="ionicon" name="logo-linkedin"></ion-icon></a>
+            <a href="https://github.com/vivekpadinjarote" target="_blank"><ion-icon class="ionicon" name="logo-github"></ion-icon></a>
+            <p>&copy;2021. Developed by Vivek P P</p>
+    </section>
+    <!-----------footer ends here------------>
+
+    <!-----------scripts starts here------------>
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0px";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+    <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+    <!-----------scripts ends here------------>
+</body>
+</html>
+
+        
