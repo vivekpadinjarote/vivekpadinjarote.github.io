@@ -132,6 +132,7 @@ a:focus { outline: none !important; }
 
 nav .fa {
   display: none;
+
 }
 
 @media (max-width: 700px) {
@@ -191,6 +192,12 @@ nav .fa {
   padding: 20px 50px;
   box-sizing: content-box;
   transition: 0.5s;
+}
+
+.course-col p{
+  font-weight: 400;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: medium;
 }
 
 .course-col1 {
@@ -279,7 +286,7 @@ nav .fa {
 }
 
 .layer:hover {
-  background: rgba(226, 0, 0, 0.7);
+  background: rgba(0, 255, 221, 0.397);
 }
 
 .layer h3 {
@@ -402,7 +409,7 @@ nav .fa {
 }
 
 .layer1 h3 a{
-  text-decoration: none;
+  text-decoration: none ;
   color: #fff;
 }
 
